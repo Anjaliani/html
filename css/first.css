@@ -1,0 +1,120 @@
+
+
+.header 
+{
+  background:black;
+  font-size: 90px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: cursive;
+  letter-spacing: -5px;
+  color: silver;
+  text-shadow: 5px 10px 10px grey; 
+}
+
+#list li
+{
+  display: inline;
+  text-decoration: none;
+  font-size: 35px;
+  padding-left: 100px;
+
+}
+ 
+
+ul a:hover
+{
+  text-decoration:underline;
+  color:#CE0BF9;
+}
+
+#container
+{
+  width: 100%;
+  height:70%;
+  margin-top: 5%;
+  margin-left: auto;
+ 
+  background-color: black;
+}
+
+#container #left 
+{
+  width: 31%;
+  height:90%;
+  margin: 20px;
+  float: left;
+  text-align: center;
+  
+  background-color:white;
+}
+#container #left li
+{
+ text-align: left;
+ font-size: 20px;
+ font color:pink;
+
+}
+#container #center
+{
+  width: 31%;
+  height:90%;
+  margin: 20px;
+  float: left;
+   text-align: center;
+  background-color: white;
+}
+
+
+
+#container #center li
+{
+ text-align: left;
+ font-size: 20px;
+ font color:pink;
+}
+
+#container #right 
+{
+  width: 30%;
+  height:90%;
+  margin: 20px;
+   text-align: center;
+  float:right;
+  background-color:white;
+}
+#container #right li
+{
+ text-align: left;
+ font-size: 20px;
+ font color:pink;
+}
+
+.hero-image
+{
+ background-image: url("hero.jpg"); 
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 250px;
+ padding-top: 25%;
+ margin-top: 5%;
+ background-size: cover;
+ position: relative;
+}
+.hero-text
+{
+	text-align: center;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	font-size:35px;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+
+#footer
+{
+	background:grey;
+	font-family: cursive;
+
+}
