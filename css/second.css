@@ -10,7 +10,7 @@
   text-shadow: 5px 10px 10px grey; 
 }
 
-#list li
+.list li
 {
   display: inline;
   text-decoration: none;
@@ -26,7 +26,7 @@ ul a:hover
   color:#CE0BF9;
 }
 
-#container
+.container
 {
   width: 100%;
   height:70%;
@@ -36,7 +36,7 @@ ul a:hover
   background-color: white;
 }
 
-#container #left 
+.container .left
 {
   width: 47%;
   height:90%;
@@ -47,19 +47,19 @@ ul a:hover
   background-color:white;
 }
 
-#container #right 
+.container .right 
 {
   width: 47%;
   height:90%;
   margin: 20px;
   text-align: left;
-  font color: black;
+  font color:black;
   font-family: cursive;
   float:right;
   background-color:white;
 }
 
-#main
+.main
 {
   width: 100%;
   height:70%;
@@ -69,7 +69,7 @@ ul a:hover
   background-color: white;
 }
 
-#main #col1 
+.main .col2 
 {
   width: 47%;
   height:90%;
@@ -77,16 +77,16 @@ ul a:hover
   text-align: left;
   font color: black;
   font-family: cursive;
-  float:right;
+  float:left;
   background-color:white;
 }
 
-#main #col2
+.main .col1
 {
   width: 47%;
   height:90%;
   margin: 20px;
-  float: left;
+  float: right;
   text-align: center;
   
   background-color:white;
